@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #151517;
+}
+
+.navbar {
+  background-color: #292D38;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;        
+  padding-left: 7px;
+  padding-right: 200px;
+  position: relative;
+}
+
+.logo {
+  width: 120px;
+  align-self: flex-start;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-top: 35px;
+  gap: 60px;
+  align-items: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(233, 227, 227);
+  font-family: sans-serif;
+}
