@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-  background-color: #292D38;
+  background-color: #292d389d;
   width: 100%;
 }
 
@@ -17,20 +17,20 @@ nav {
   display: flex;
   justify-content: space-between; 
   align-items: flex-start;        
-  padding-left: 7px;
+  padding-left: 10px;
   padding-right: 200px;
   position: relative;
 }
 
 .logo {
-  width: 120px;
+  width: 150px;
   align-self: flex-start;
 }
 
 ul {
   list-style: none;
   display: flex;
-  margin-top: 35px;
+  margin-top: 45px;
   gap: 60px;
   align-items: center;
 }
@@ -38,5 +38,21 @@ ul {
 ul li a {
   text-decoration: none;
   color: rgb(233, 227, 227);
-  font-family: sans-serif;
+  font-family: Helvetica;
+  font-size: 18px;
+}
+#aurora {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}
+#aurora canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: screen;
 }
