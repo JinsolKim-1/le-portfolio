@@ -694,6 +694,32 @@ header {
   color: #e0e0ff;
 }
 
+.skills-title {
+  font-size: 2.2rem;
+  color: #fff;
+  text-shadow: 0 0 10px #a020f0, 0 0 25px #00fff2;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.skills-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin: 15px auto 0;
+  background: linear-gradient(90deg, #a020f0, #00fff2);
+  border-radius: 2px;
+}
+
+.skills-section h2:first-of-type {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 0 0 15px #a020f0, 0 0 25px #00fff2;
+  margin-bottom: 50px;
+}
+
 .skills-container {
   display: flex;
   flex-wrap: wrap;
